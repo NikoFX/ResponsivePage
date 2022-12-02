@@ -11,8 +11,9 @@ body {
 }
 
 .wrapper {
-    max-width: 1192px;
+    width: 1192px;
     margin-top: 5%;
+    padding: 0 50px;
     margin-inline: auto;
 }
 
@@ -23,6 +24,7 @@ body {
 
 .left {
     max-width: 662px;
+    padding-right: 50px;
 }
 
 .right {
@@ -51,6 +53,7 @@ footer {
 
 .img{
     position: relative;
+    margin-right: 100px;
 }
 
 .ellipse-2 {
@@ -66,12 +69,13 @@ footer {
 
 ul {
     display: flex;
-    margin-left: 100px;
     list-style: none;
+    padding-inline-start: 0;
 }
 
 li {
-    padding: 0 30px;
+    width: 200px;
+    padding-right: 60px;
 }
 
 li p {
