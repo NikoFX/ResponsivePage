@@ -1,6 +1,6 @@
 @media only screen and (max-width: 835px) {
     .wrapper{
-      width: 835px;
+      max-width: 835px;
     }
     .img{
       display: none;
@@ -9,7 +9,10 @@
 
   @media only screen and (max-width: 475px) {
 
-   
+    .wrapper{
+      max-width: 475px;
+    }
+
     article .row{
       flex-wrap: wrap;
       justify-content: center;
