@@ -21,4 +21,8 @@
       justify-content: center;
     }
 
+    body{
+      font-size: .9em;
+    }
+
   }
