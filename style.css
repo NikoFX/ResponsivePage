@@ -35,7 +35,7 @@ body {
 .ellipse-1 {
     background-color: rgb(224, 224, 224);
     position: absolute;
-    width: 366px;
+    max-width: 366px;
     height: 59px;
     border-radius: 50%;
     top: 280px;
@@ -59,7 +59,7 @@ footer {
 .ellipse-2 {
     background-color: rgb(224, 224, 224);
     position: absolute;
-    width: 180px;
+    max-width: 180px;
     height: 35px;
     border-radius: 50%;
     top: 182px;
@@ -74,7 +74,7 @@ ul {
 }
 
 li {
-    width: 200px;
+    max-width: 200px;
     padding-right: 60px;
 }
 

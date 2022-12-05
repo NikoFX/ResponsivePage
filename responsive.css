@@ -5,6 +5,9 @@
     .img{
       display: none;
     }
+    ul{
+      flex-wrap: wrap;
+    }
   }
 
   @media only screen and (max-width: 475px) {
