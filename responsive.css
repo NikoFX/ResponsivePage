@@ -9,10 +9,7 @@
 
   @media only screen and (max-width: 475px) {
 
-    .wrapper{
-      min-width: none;
-    }
-
+   
     article .row{
       flex-wrap: wrap;
       justify-content: center;
